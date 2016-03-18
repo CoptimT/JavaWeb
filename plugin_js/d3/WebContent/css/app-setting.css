@@ -1,0 +1,161 @@
+.grouplist {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 35px; PADDING-LEFT: 23px; PADDING-RIGHT: 23px; HEIGHT: 35px; PADDING-TOP: 5px;height:auto; overflow:hidden;
+}
+.grouplist .tabs {
+	FLOAT: left
+}
+.grouplist .tabs A {
+	POSITION: relative; DISPLAY: inline
+}
+.tabs LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FLOAT: left; MARGIN-RIGHT: 10px; PADDING-TOP: 0px
+}
+.tabs LI.on {
+	POSITION: relative; BACKGROUND: #ededed; border-radius: 8px
+}
+.tabs LI.active {
+	POSITION: relative; BACKGROUND: #ededed; border-radius: 8px
+}
+.mod-op {
+	Z-INDEX: 101; BORDER-BOTTOM: #cfcfcf 1px solid; POSITION: absolute; BORDER-LEFT: #cfcfcf 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; WHITE-SPACE: nowrap; BACKGROUND: white; HEIGHT: 60px; BORDER-TOP: #cfcfcf 1px solid; BORDER-RIGHT: #cfcfcf 1px solid; PADDING-TOP: 10px; TOP: 40px; LEFT: 0px; -moz-box-shadow: 0px 3px 5px #D7D7D7; -webkit-box-shadow: 0px 3px 5px #D7D7D7; box-shadow: 0px 3px 5px #D7D7D7
+}
+.editgp .icon {
+	BACKGROUND: url(/images/icons/icon.png) no-repeat 0px -698px
+}
+.editgp:hover .icon {
+	BACKGROUND: url(/images/icons/icon.png) no-repeat -24px -698px
+}
+.editform {
+	DISPLAY: none; WHITE-SPACE: nowrap
+}
+.editgp {
+	LINE-HEIGHT: 30px; HEIGHT: 30px; COLOR: #5d5d5d; MARGIN-LEFT: -5px; CURSOR: pointer
+}
+.delgp {
+	LINE-HEIGHT: 30px; HEIGHT: 30px; COLOR: #5d5d5d; MARGIN-LEFT: -5px; CURSOR: pointer
+}
+.editform .input {
+	WIDTH: 120px; MARGIN-RIGHT: 10px
+}
+.delgp .icon {
+	BACKGROUND: url(/images/icons/icon.png) no-repeat 0px -745px
+}
+.delgp:hover .icon {
+	BACKGROUND: url(/images/icons/icon.png) no-repeat -24px -745px
+}
+.app_name_w {
+	POSITION: relative
+}
+.appgrouping .app_name_w .gps {
+	DISPLAY: none
+}
+.appgrouping {
+	TABLE-LAYOUT: fixed
+}
+.appgrouping .app_name_w .list {
+	Z-INDEX: 11; BORDER-BOTTOM: #b4b4b4 1px solid; POSITION: absolute; BORDER-LEFT: #b4b4b4 1px solid; DISPLAY: none; BACKGROUND: #fff; BORDER-TOP: #b4b4b4 1px solid; BORDER-RIGHT: #b4b4b4 1px solid; TOP: 39px
+}
+.appgrouping .app_name_w .list UL {
+	OVERFLOW-X: hidden; OVERFLOW-Y: auto; MAX-HEIGHT: 110px
+}
+.appgrouping .app_name_w .on {
+	DISPLAY: inline
+}
+.appgrouping .app_name_w .newgroup {
+	TEXT-ALIGN: left; PADDING-LEFT: 10px; DISPLAY: none; HEIGHT: 30px
+}
+.appgrouping TR TD .descript {
+	LINE-HEIGHT: 38px; HEIGHT: 38px; OVERFLOW: hidden; WORD-BREAK: break-all
+}
+.grouplist .act A {
+	POSITION: relative; TEXT-INDENT: -9999px; WIDTH: 16px; DISPLAY: inline-block; BACKGROUND: url(/images/icons/icon-3.png) no-repeat 0px 0px; HEIGHT: 16px; MARGIN-LEFT: 5px; OVERFLOW: hidden; CURSOR: pointer; TOP: 4px
+}
+.grouplist .qAct {
+	POSITION: relative; TEXT-INDENT: -9999px; WIDTH: 16px; DISPLAY: inline-block; BACKGROUND: url(/images/icons/delete.png) no-repeat 0px 0px; HEIGHT: 16px; MARGIN-LEFT: 5px; OVERFLOW: hidden; CURSOR: pointer; TOP: 4px
+}
+.grouplist .qAct:hover {
+	BACKGROUND: url(/images/icons/delete.png) no-repeat -16px 0px
+}
+.groupmore {
+	POSITION: relative
+}
+.menulist {
+	Z-INDEX: 101; BORDER-BOTTOM: #cfcfcf 1px solid; POSITION: absolute; BORDER-LEFT: #cfcfcf 1px solid; PADDING-BOTTOM: 10px; OVERFLOW-X: hidden; OVERFLOW-Y: auto; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; WHITE-SPACE: nowrap; BACKGROUND: white; MAX-HEIGHT: 300px; BORDER-TOP: #cfcfcf 1px solid; BORDER-RIGHT: #cfcfcf 1px solid; PADDING-TOP: 10px; TOP: 40px; LEFT: 0px; -moz-box-shadow: 0px 3px 5px #D7D7D7; -webkit-box-shadow: 0px 3px 5px #D7D7D7; box-shadow: 0px 3px 5px #D7D7D7
+}
+.menulist LI {
+	FLOAT: none
+}
+.data-load-2 THEAD {
+	BORDER-BOTTOM: #b4b4b4 1px solid; LINE-HEIGHT: 45px; HEIGHT: 45px; BORDER-TOP: #b4b4b4 1px solid;
+}
+.data-load-2 THEAD TH {
+	BACKGROUND: #eaeaea; font-size:12px;
+}
+.data-load-2 .first {
+	TEXT-ALIGN: center
+}
+.data-load-2 .first A {
+	POSITION: relative; DISPLAY: block; TOP: 5px
+}
+.data-load-2 THEAD TH DIV {
+	MARGIN: 1px 0px; BACKGROUND: #eaeaea
+}
+.data-load-2 TBODY TD {
+	BORDER-BOTTOM: #e8e8e8 1px solid; LINE-HEIGHT: 40px; HEIGHT: 40px; font-size:12px;
+}
+.data-load-2 TBODY TD .app_name {
+	LINE-HEIGHT: 40px; WIDTH: 200px; HEIGHT: 40px; OVERFLOW: hidden
+}
+.data-load-2 TBODY TD .app_name A {
+	WHITE-SPACE: nowrap
+}
+.data-load-2 TBODY TR:hover {
+	BACKGROUND: #d3f0f1
+}
+.app_name_w .list {
+	LINE-HEIGHT: 30px; WIDTH: 220px; border-radius: 8px
+}
+.app_name_w .list UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.app_name_w .list LI {
+	LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.app_name_w .list LI INPUT {
+	POSITION: relative; TOP: 2px
+}
+.app_name_w .list DIV B {
+	BORDER-BOTTOM: white 1px solid; TEXT-ALIGN: center; DISPLAY: block; BACKGROUND: url(/images/bgs/backg.png) repeat-x 0px -418px; HEIGHT: 30px; COLOR: #333; FONT-SIZE: 14px; BORDER-TOP: #c6c6c6 1px solid; CURSOR: pointer; border-radius: 8px; border-top-left-radius: 0; border-top-right-radius: 0
+}
+.newgroup {
+	BORDER-BOTTOM: white 1px solid; TEXT-ALIGN: center; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: #fff; COLOR: #333; FONT-SIZE: 14px; BORDER-TOP: #c6c6c6 1px solid; CURSOR: pointer; PADDING-TOP: 10px; border-radius: 8px; border-top-left-radius: 0; border-top-right-radius: 0
+}
+.newgroup .input {
+	WIDTH: 115px
+}
+.newgroup .button {
+	HEIGHT: 30px; MARGIN-LEFT: 5px
+}
+.descript {
+	TEXT-OVERFLOW: ellipsis
+}
+.addApp:hover .icon {
+	BACKGROUND-POSITION: -24px -1057px
+}
+.addApp {
+	COLOR: #333; FONT-SIZE: 14px
+}
+.shown_all {
+	LINE-HEIGHT: 50px; FLOAT: right; HEIGHT: 50px; FONT-SIZE: 14px
+}
+.border-radius {
+	border-radius: 8px
+}
+.build_list{ display:block; width:100%; overflow:hidden;}
+
+.build_list li{ float:left; width:50%; overflow:hidden; height:25px; padding:0px; margin:0px; line-height:25px;}
+
+.input2 {
+	FONT-SIZE: 12px; BORDER-TOP: #b4b4b4 1px solid; HEIGHT: 26px; BORDER-RIGHT: #b4b4b4 1px solid; BORDER-BOTTOM: #b4b4b4 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; BORDER-LEFT: #b4b4b4 1px solid; LINE-HEIGHT: 26px; PADDING-RIGHT: 10px; border-radius: 8px; box-shadow: inset 2px 2px 5px #EAEAEA
+}
+.34{ border:solid 1px #CCCCCC; padding:8px;}

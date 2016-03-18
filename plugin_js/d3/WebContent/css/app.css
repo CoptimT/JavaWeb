@@ -1,0 +1,109 @@
+.crumbs {
+	HEIGHT: 40px; BACKGROUND: url(/images/pic/step1.png) no-repeat center center; MARGIN: 0px auto 30px; LINE-HEIGHT: 40px; WIDTH: 800px
+}
+.crumbs2 {
+	BACKGROUND: url(/images/pic/step2.png) no-repeat center center
+}
+.crumbs SPAN {
+	FONT-SIZE: 15px
+}
+.crumbs .fir {
+	MARGIN-LEFT: 20px
+}
+.crumbs .sec {
+	MARGIN-LEFT: 190px
+}
+.getAppkeycontent {
+	TEXT-ALIGN: center; MARGIN: 0px auto; WIDTH: 800px
+}
+.getAppkeycontent H4 {
+	FONT-SIZE: 14px; PADDING-BOTTOM: 20px
+}
+.getAppkeycontent .appkey SPAN {
+	FONT-SIZE: 20px; BACKGROUND: #ccc; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; MARGIN: 0px 20px; DISPLAY: inline-block; PADDING-RIGHT: 20px
+}
+.input_submit {
+	CURSOR: pointer; FONT-SIZE: 13px; BORDER-TOP: #8986a9 1px solid; BORDER-RIGHT: #8986a9 1px solid; BACKGROUND: #8c87bb; BORDER-BOTTOM: #8986a9 1px solid; COLOR: white; PADDING-BOTTOM: 14px; TEXT-ALIGN: center; PADDING-TOP: 15px; PADDING-LEFT: 0px; BORDER-LEFT: #8986a9 1px solid; DISPLAY: inline-block; PADDING-RIGHT: 0px; WIDTH: 195px; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; box-shadow: inset 0px 1px 1px #C8C6E3
+}
+.description {
+	FONT-SIZE: 14px; TEXT-ALIGN: left; MARGIN: 26px 130px 30px; LINE-HEIGHT: 30px
+}
+.description A {
+	COLOR: #607ab3; TEXT-DECORATION: underline
+}
+.b_addApps {
+	FONT-SIZE: 14px
+}
+.b_addApps TR TD {
+	HEIGHT: 30px; PADDING-BOTTOM: 10px; LINE-HEIGHT: 30px
+}
+.b_addApps TD.fir {
+	PADDING-RIGHT: 10px
+}
+LABEL.error {
+	FONT-SIZE: 14px; FONT-WEIGHT: normal; COLOR: #ea5200; PADDING-BOTTOM: 2px; PADDING-LEFT: 16px
+}
+.radio-list INPUT {
+	VERTICAL-ALIGN: middle; POSITION: relative; TOP: -15px
+}
+.input2 {
+	FONT-SIZE: 12px; BORDER-TOP: #b4b4b4 1px solid; HEIGHT: 26px; BORDER-RIGHT: #b4b4b4 1px solid; BORDER-BOTTOM: #b4b4b4 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; BORDER-LEFT: #b4b4b4 1px solid; LINE-HEIGHT: 26px; PADDING-RIGHT: 10px; border-radius: 8px; box-shadow: inset 2px 2px 5px #EAEAEA
+}
+.new_app_textarea {
+	FONT-SIZE: 12px; BORDER-TOP: #b4b4b4 1px solid; BORDER-RIGHT: #b4b4b4 1px solid; BORDER-BOTTOM: #b4b4b4 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #b4b4b4 1px solid; PADDING-RIGHT: 10px; border-radius: 8px; box-shadow: inset 2px 2px 5px #EAEAEA
+}
+.appname .icon-staroff {
+	VISIBILITY: hidden
+}
+.appname:hover .icon-staroff {
+	VISIBILITY: visible
+}
+.appname .icon-top {
+	VISIBILITY: visible
+}
+.stats-summary TD {
+	BACKGROUND: url(/images/bgs/backg.png) repeat-x 0px -418px; PADDING-BOTTOM: 38px; TEXT-ALIGN: center; PADDING-TOP: 38px; PADDING-LEFT: 0px; BORDER-LEFT: #b4b4b4 1px solid; PADDING-RIGHT: 0px
+}
+.stats-summary TD:first-child {
+	BORDER-LEFT: 0px
+}
+.appname .icon-staroff {
+	VISIBILITY: hidden
+}
+.appname:hover .icon-staroff {
+	VISIBILITY: visible
+}
+.appname .icon-top {
+	VISIBILITY: visible
+}
+.stats-summary TD {
+	BACKGROUND: url(/images/bgs/backg.png) repeat-x 0px -418px; PADDING-BOTTOM: 38px; TEXT-ALIGN: center; PADDING-TOP: 38px; PADDING-LEFT: 0px; BORDER-LEFT: #b4b4b4 1px solid; PADDING-RIGHT: 0px
+}
+.stats-summary TD:first-child {
+	BORDER-LEFT: 0px
+}
+.platform-iphone {
+	BACKGROUND: url(/images/icons/iPhone-small.png) no-repeat 0px 0px
+}
+.platform-ipad {
+	BACKGROUND: url(/images/icons/ipad-small.png) no-repeat 0px 0px
+}
+.platform-android {
+	BACKGROUND: url(/images/icons/android-small.png) no-repeat 0px 0px
+}
+.platform-wphone {
+	BACKGROUND: url(/images/icons/window-phone-small.png) no-repeat 0px 0px
+}
+.platform-wphone8 {
+	BACKGROUND: url(/images/icons/window-phone8-small.png) no-repeat 0px 0px
+}
+.name_field{ width:100px; display:block; float:left; text-align:right;}
+ul.power_list{ height:auto; overflow:hidden;}
+ul.power_list li{ float:left; height:30px; line-height:30px; width:20%; overflow:hidden;}
+.open_title{ width:100%; height:50px; background-color:#596C7C; line-height:50px; font-size:18px; text-align:center; color:#FFFFFF;}
+.build_list_select{height:auto; overflow:hidden;border-bottom:solid 1px #CCCCCC; margin-bottom:10px;}
+.build_list_select_2{height:auto; overflow:hidden;}
+.build_list_select span{padding:10px; cursor:pointer; float:left;}
+.build_list_select span.selected{ background-color:#99CC66;}
+
+.reso_list{ width:100%; height:300px; overflow:auto;}

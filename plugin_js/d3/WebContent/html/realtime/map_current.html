@@ -1,0 +1,220 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=zh>
+<HEAD>
+<META content="IE=8.0000" http-equiv="X-UA-Compatible">
+<TITLE>寻鹿统计分析</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META content=IE=EmulateIE8 http-equiv=X-UA-Compatible>
+<LINK rel="shortcut icon" href="/images/favicon.ico">
+<META name=csrf-param content=authenticity_token>
+<META name=csrf-token content=w9lb0vhfKA29C+acsZ+rt863CkyKwlUJ2uDoBW3bvds=>
+<META name=GENERATOR content="MSHTML 9.00.8112.16476">
+<LINK rel=stylesheet type=text/css href="../../css/cached_report.css" media=screen>
+<LINK rel=stylesheet type=text/css href="../../css/app-setting.css">
+<link rel="stylesheet" href="../../css/jquery.autocomplete.css">
+<SCRIPT type=text/javascript src="../../plugin/loader.js"></SCRIPT>
+<SCRIPT type=text/javascript src="../../js/map_current.js"></SCRIPT>
+<script type="text/javascript">
+function check_pic(){
+   if(document.form1.smallclassid.value==""){
+	   alert("请选择楼层");
+	   document.form1.smallclassid.focus();
+	   return false;
+   }
+   document.form1.submit();
+}
+</script>
+<!-- 放在头部 避免ie8的bug-->
+<!--[if IE ]>
+<SCRIPT type=text/javascript src="../../plugin/cached_report_lay_head.js"></SCRIPT>
+<![endif] -->
+</HEAD>
+<BODY>
+<DIV id=doc>
+<!--head-->
+<DIV class=hd>
+	<DIV class="userHeader clearfix">
+		<DIV style="DISPLAY: block" class=fr>
+		  <SPAN class=tip>管理员名：admin</SPAN> 
+		  <SPAN class=tip><A href="/total/login/login_out.php">退出</A></SPAN>
+		</DIV>
+	    <DIV class=logo>
+			<A href="http://www.rtmap.com/" target="_blank"><IMG src="/d3/images/logo.png"></A>
+		</DIV>
+	    <DIV><A id="newDivide" class="newdivide" href="javascript:void(0);">新功能介绍</A></DIV>
+	</DIV>
+
+	<DIV class=globalNav>
+		<DIV class=bd2>
+			<DIV class="leftCol js-app">
+				<!--search-->
+				<DIV style="DISPLAY: none" class="search_Apps js-search-Apps">
+					<INPUT id=search_apps type=text value="请输入搜索关键词" onFocus="this.focus();if(this.value=='请输入搜索关键词'){this.value='';}" onBlur="if(this.value==''){this.value='请输入搜索关键词';}" > 
+				</DIV>
+				<!--search-->
+				<!--select app-->
+				<DIV class="app-select js-app-select">
+					<H4 class="select-head custom">
+						<DIV class="selected js-selected" value="860100010050300028">北京百荣世贸二期</DIV>
+						<B class="icon pulldown"></B>
+					</H4>
+				</DIV>
+				<UL style="DISPLAY: none" class="select-list js-select-list">
+					<LI key="all_apps">全部建筑物</LI>
+					<LI app_id=860100010050300028>北京百荣世贸二期</LI>
+					<LI app_id=860100010050300027>北京百荣世贸一期</LI>					
+				</UL>
+				<!--select app-->			
+			</DIV>
+			
+			<DIV class=contentCol>
+				<DIV class=linkpanel>
+				<A class=apply_promotion title=申请加入应用联盟 href="javascript:void(0)"><B class="icon2 au"></B></A> 
+				</DIV>
+				<DIV class=topNav>
+					<DIV class="navItem currentItem">
+					<A href="/total/count"><SPAN class="icon icons1"></SPAN><SPAN>统计分析</SPAN><SPAN class=bot></SPAN></A></DIV>
+					<DIV class="navItem ">
+					<A href="/total/manage"><SPAN class="icon icons3"></SPAN><SPAN>管理</SPAN><SPAN class=bot></SPAN></A></DIV>
+				</DIV>
+			</DIV>
+			
+		</DIV>
+	</DIV>
+		
+</DIV>
+<!--head-->
+<!--body-->
+<DIV class="bd clearfix">
+    <!--left_menu-->
+	<DIV id=leftColContainer>
+	<DIV class=leftCol>
+		<DIV id=siderNav>
+			<UL class=nav-items>
+				<LI class="nav-item item-top "><SPAN><A href="/total/count/general" page_id="AppSummary"><B class="icon item-5"></B>今日总览</A></SPAN></LI>
+				<LI class="nav-item "><SPAN><A><B class="icon item-0"></B>客流统计</A></SPAN> 
+				  <UL class=sub-list>
+					<LI><A  href="/total/count/details/users_flow_2.php" >客流量统计</A></LI>
+					<LI><A  href="/total/count/details/new_users.php" >到访频次</A></LI>
+					<LI><A  href="/total/count/details/stay_2.php" >驻留量统计</A></LI>
+				  </UL>
+				</LI>
+			    <LI class="nav-item current-item on"><SPAN><A><B class="icon item-3"></B>客流分析</A></SPAN> 
+				  <UL class=sub-list>
+					<LI><A class=current-item href="/total/count/map/map_current.php" >顾客实时位置</A></LI>
+					<LI><A  href="/total/count/map/map_num_store.php?initial=1" >进店对比分析</A></LI>
+					<LI><A  href="/total/count/map/heatmap_all.php" >客流热度分析</A></LI>
+					<LI><A  href="/total/count/map/heatmap_single.php" >驻留热度分析</A></LI> 
+				  </UL>
+				</LI>
+			</UL>
+		</DIV>
+	</DIV>
+	</DIV>
+    <!--left_menu-->
+
+    <!--content-->
+	<DIV id=mainContainer style="height:auto; overflow:hidden;">
+		<DIV class=contentCol>
+			<DIV id=b_center>
+				<DIV id=launch-detail-table class="mod mod1 parent-table">
+					<DIV class="mod-header radius">
+						<H2>顾客实时位置<A class="icon help poptips" title="" action-frame="tip_team"></A></H2>
+						<DIV class=option><a onClick="shaix('grouplist','name_button')" class="name_button">收起筛选</a></DIV>
+					</DIV>
+					<DIV class=mod-body>
+						<DIV id=b_pro_status_home>
+							<DIV class=app_header>
+								<DIV class=grouplist style="height:auto; overflow:hidden;">
+								<form name="form1" style=" width:100%; text-align:left; padding:0px;" method="post" action="#?">
+								  选择楼层：
+								  <select name="bigclassid" id="id_build" onChange="check_pic();" size="1">
+									<option value="" selected>请选择建筑物</option>
+									<option value="860100010050300028" selected>北京百荣世贸二期</option>
+								  </select>
+								  <span id="smallclassid2">
+								  <select name="smallclassid" id="floor" onChange="check_pic();">
+									<option value="" selected>请选择楼层</option>
+									<option value="B2" >B2</option>
+									<option value="B1" >B1</option>
+									<option value="F1" selected>F1</option>
+									<option value="F2" >F2</option>
+									<option value="F3" >F3</option>
+									<option value="F4" >F4</option>
+									<option value="F5" >F5</option>
+									<option value="F6" >F6</option>
+								  </select>
+								  </span>
+								  <br>
+								  查看单顾客：最近
+								  <select name="time_limit" id="time_limit" onChange="check_pic();">
+									  <option value="">请选择筛选条件</option>
+									  <option value="60" >1小时</option>
+									  <option value="3" >3分钟</option>
+								  </select>
+								  顾客
+								  <span id="users">
+								  <input type="text" name="user" id="user" size="50" value="选择顾客" onFocus="this.focus();if(this.value=='选择顾客'){this.value='';}" onBlur="if(this.value==''){this.value='选择顾客';}" />
+								  </span>
+								  <font color="red">显示选中顾客一小时内最近的位置信息</font>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="刷新">
+								  <br />
+								</form>
+								</DIV>
+							</DIV>
+						</DIV>
+						<div id="info_img" style="border:solid 1px #cccccc; padding:5px; margin:5px auto;">
+							图片宽度：<span id="map_floor"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+							点个数：<span id="num_poi"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+							user：<span>所有顾客</span>&nbsp;&nbsp;&nbsp;&nbsp;
+						</div>
+						<div id="map_box" style="position:relative; height:768px; width:100%; overflow:hidden; z-index:10;">
+							<div id="block1" onMouseOut="drag=0;" onMouseOver="drag=1;" style="POSITION:absolute; LEFT: 0px;  TOP: 0px; z-index:2;">					
+								<div id="show_img" img_sre="860100010050300028-F1-0.jpg"></div>
+								<span id="poi_list" scale_new="0.09000" danw="10" db_map_current="3">
+									<!--点-->
+								</span>
+							</div>
+						</div>
+					</DIV>
+				</DIV>			
+			</DIV>
+			
+			<!--说明文案-->
+			<DIV>
+				<DIV id=tip_setting>				
+					<DIV id=tip_team class=tips>
+					<DIV class=corner></DIV>
+					<P>说明：实时显示选中楼层最近3分钟的定位信息，若选择了顾客则显示该顾客一小时内最近的位置信息</P>
+					</DIV>					
+				</DIV>
+			</DIV>
+			<!--说明文案-->
+		</DIV>
+	</DIV>
+    <!--content-->
+</DIV>
+<!--body-->
+<!--foot-->
+<DIV class=hiddenft></DIV>
+<DIV class=ft>
+	<DIV class=copyright>
+		<A href="">关于我们</A> | 
+		<A href="">微博</A> | 
+		<A href="">Blog </A>| 
+		<A href="">服务条款 </A>| 
+		<A href="">隐私政策 </A>
+		<P class=copy>© 2013－2018 rtmap.com, All Rights Reserved.
+			<SPAN class=ICP>
+				| <a href="http://www.beianbeian.com/beianxinxi/e9986096-cc33-421a-93a8-d31079587119.html" target="_blank">京ICP备13002694号-1</a>
+			</SPAN> 
+			<span> | VS 4.1.6</span>
+		</P>
+	</DIV>
+</DIV>
+<!--foot-->
+</DIV>
+</BODY>
+</HTML>
+
+
+

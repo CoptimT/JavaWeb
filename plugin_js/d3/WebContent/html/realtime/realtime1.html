@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>实时位置测试1</title>
+<LINK rel=stylesheet type=text/css href="../../css/cached_report.css" media=screen>
+<LINK rel=stylesheet type=text/css href="../../css/app-setting.css">
+<link rel="stylesheet" href="../../css/jquery.autocomplete.css">
+<!-- <script src="../../d3/d3.min.js" charset="utf-8"></script> -->
+<SCRIPT type=text/javascript src="../../plugin/loader.js"></SCRIPT>
+<SCRIPT type=text/javascript src="../../js/map_current.js"></SCRIPT>
+<!--[if IE ]>
+<SCRIPT type=text/javascript src="../../plugin/cached_report_lay_head.js"></SCRIPT>
+<![endif] -->
+</head>
+<body>
+	<DIV id=mainContainer style="height:auto; overflow:hidden;">
+		<DIV class=contentCol>
+			<DIV id=b_center>
+				<DIV id=launch-detail-table class="mod mod1 parent-table">
+					<DIV class="mod-header radius">
+						<H2>顾客实时位置<A class="icon help poptips" title="" action-frame="tip_team"></A></H2>
+						<DIV class=option><a onClick="shaix('grouplist','name_button')" class="name_button">收起筛选</a></DIV>
+					</DIV>
+					<DIV class=mod-body>
+						<DIV id=b_pro_status_home>
+							<DIV class=app_header>
+								<DIV class=grouplist style="height:auto; overflow:hidden;">
+								<form name="form1" style=" width:100%; text-align:left; padding:0px;" method="post" action="#?">
+								  选择楼层：
+								  <select name="bigclassid" id="id_build" onChange="check_pic();" size="1">
+									<option value="" selected>请选择建筑物</option>
+									<option value="860100010050300028" selected>北京百荣世贸二期</option>
+								  </select>
+								  <span id="smallclassid2">
+								  <select name="smallclassid" id="floor" onChange="check_pic();">
+									<option value="" selected>请选择楼层</option>
+									<option value="B2" >B2</option>
+									<option value="B1" >B1</option>
+									<option value="F1" selected>F1</option>
+									<option value="F2" >F2</option>
+									<option value="F3" >F3</option>
+									<option value="F4" >F4</option>
+									<option value="F5" >F5</option>
+									<option value="F6" >F6</option>
+								  </select>
+								  </span>
+								  <br>
+								  查看单顾客：最近
+								  <select name="time_limit" id="time_limit" onChange="check_pic();">
+									  <option value="">请选择筛选条件</option>
+									  <option value="60" >1小时</option>
+									  <option value="3" >3分钟</option>
+								  </select>
+								  顾客
+								  <span id="users">
+								  <input type="text" name="user" id="user" size="50" value="选择顾客" onFocus="this.focus();if(this.value=='选择顾客'){this.value='';}" onBlur="if(this.value==''){this.value='选择顾客';}" />
+								  </span>
+								  <font color="red">显示选中顾客一小时内最近的位置信息</font>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="刷新">
+								  <br />
+								</form>
+								</DIV>
+							</DIV>
+						</DIV>
+						<div id="info_img" style="border:solid 1px #cccccc; padding:5px; margin:5px auto;">
+							图片宽度：<span id="map_floor"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+							点个数：<span id="num_poi"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+							user：<span>所有顾客</span>&nbsp;&nbsp;&nbsp;&nbsp;
+						</div>
+						<div id="map_box" style="position:relative; height:768px; width:100%; overflow:hidden; z-index:10;">
+							<div id="block1" onMouseOut="drag=0;" onMouseOver="drag=1;" style="POSITION:absolute; LEFT: 0px;  TOP: 0px; z-index:2;">					
+								<div id="show_img" img_sre="860100010050300028-F1-0.jpg"></div>
+								<span id="poi_list" scale_new="0.09000" danw="10" db_map_current="3">
+									<!--点-->
+								</span>
+							</div>
+						</div>
+					</DIV>
+				</DIV>			
+			</DIV>
+			
+			<!--说明文案-->
+			<DIV>
+				<DIV id=tip_setting>				
+					<DIV id=tip_team class=tips>
+					<DIV class=corner></DIV>
+					<P>说明：实时显示选中楼层最近3分钟的定位信息，若选择了顾客则显示该顾客一小时内最近的位置信息</P>
+					</DIV>					
+				</DIV>
+			</DIV>
+			<!--说明文案-->
+		</DIV>
+	</DIV>
+<script>	
+	
+</script>
+</body>
+</html>
